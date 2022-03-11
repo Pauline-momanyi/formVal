@@ -1,0 +1,21 @@
+form{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.form-group{
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+
+.buttons{
+    margin: 5px;
+    text-align: center;
+}
+#userval, #userval2, #userval3, #emailval, #emailval2, #passval, #passval2, #passval3, #conpassval, #conpassval2 {
+    display: none;
+    color: red;
+}
