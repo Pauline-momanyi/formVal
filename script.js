@@ -46,6 +46,7 @@ $(document).ready(function(){
         return false;
     }else if (password.length < 8 || password.length > 15){
         $("#passval3").show();
+        return false;
     }
     
     //validating password match and non-empty
